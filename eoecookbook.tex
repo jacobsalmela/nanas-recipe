@@ -75,7 +75,7 @@
 }
 
 \definecolor{Pagebackground}{HTML}
-{eeeeee} %<{type: "reference", id: "backgroundColor"}>
+{ffffff} %<{type: "reference", id: "backgroundColor"}>
 \pagecolor{Pagebackground}
 
 \definecolor{captionColor}{HTML}
@@ -94,12 +94,6 @@
     % grid,
     % tics=10
   ]
-  %<{
-  %   type: "crop",
-  %   description: "",
-  %   aspect: 1.43,
-  %   inputValue: "raspberry-pie-cropped"
-  % }>
     {raspberry-pie-cropped}
   %>
   \put (1,2) {
@@ -112,7 +106,7 @@
         %   description: "Recipe image caption",
         %   inputValue: "Caption. Say something sweet about this photo or recipe."
         % }>
-          {Caption. Say something sweet about this photo or recipe.}
+          {It's like Chipolte's Corn Salsa, but the corn is hot and made fresh}
         %>
       }
     }
@@ -129,7 +123,7 @@
 %   description: "Recipe title",
 %   inputValue: "NANA'S RASPBERRY PIE"
 % }>
-\recipeTitle{NANA'S RASPBERRY PIE}
+\recipeTitle{Freepolte Corn Salsa}
 %>
 
 \vspace{-0.5cm}
@@ -144,53 +138,38 @@
 
 \vspace{0.3cm}
 \hspace{-\picmargin}
-\recipeDescription{There was nothing like Nana's Raspberry Pie when we were younger. It's sweet, a bit tart, and tastes like summers on the porch in North Carolina.} %<{type: "textblock", description: "Recipe description", injectBrackets: true, inputValue: "There was nothing like Nana's Raspberry Pie when we were younger. It's sweet, a bit tart, and tastes like summers on the porch in North Carolina."}>
+\recipeDescription{My mom doesn't like corn, but she likes this.} 
 
 \begin{multicols}{3}
   \normalsize
   \raggedright
   \textbf{Ingredients}\\
   \begin{ingredients}
-  %<{"type": "list", "description": "Ingredients"}
-    %<{"type": "text", "description": "Your ingredient", inputValue: "2 cups all-purpose flour"}
-      \ingredient{2 cups all-purpose flour}
-    %>
-    %<{"type": "text", "description": "Your ingredient", inputValue: "1.5 teaspoons unsweetened cocoa"}
-      \ingredient{1.5 teaspoons unsweetened cocoa}
-    %>
-    %<{"type": "text", "description": "Your ingredient", inputValue: "1 cup butter (do not user margarine)"}
-      \ingredient{1 cup butter (do not user margarine)}
-    %>
-    %<{"type": "text", "description": "Your ingredient", inputValue: "2 large eggs"}
-      \ingredient{2 large eggs}
-    %>
-    %<{"type": "text", "description": "Your ingredient", inputValue: "0.75 cups sugar"}
-      \ingredient{0.75 cups sugar}
-    %>
-    %<{"type": "text", "description": "Your ingredient", inputValue: "0.25 tablespoons pure vanilla extract"}
-      \ingredient{0.25 tablespoons pure vanilla extract}
-    %>
-  %>
+      \ingredient{4 ears of fresh sweet corn}
+      \ingredient{2 teaspoons of lemon juice}
+      \ingredient{2 teaspoons of lime juice}
+      \ingredient{1 tablespoon butter}
+      \ingredient{1/4 raw red onion}
+      \ingredient{2 tablespoons chopped cilantro}
   \end{ingredients}
   %<{"type": "group", "description": "Preparation time"}
     \vspace{0.5cm}
-    \prep{45 min} %<{"type": "text", "description": "Preparation time", inputValue: "45 min"}>
-    \cooking{1.5 hours} %<{"type": "text", "description": "Cooking time", inputValue: "1.5 hours"}>
+    \prep{15 min}
+    \cooking{15 minutes}
     \vspace{0pt}
   %>
   \columnbreak
   \begin{steps}
     %<{"type": "list", "description": "Preparation and cooking steps"}
-    \item{Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat} %<{type: "textblock", description: "Your recipe step", injectBrackets: true, inputValue: "Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat"}>
-    \item{Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.} %<{type: "textblock", description: "Your recipe step", injectBrackets: true, inputValue: "Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus."}>
-    \item{Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.} %<{type: "textblock", description: "Your recipe step", injectBrackets: true, inputValue: "Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi."}>
-    \item{Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.} %<{type: "textblock", description: "Your recipe step", injectBrackets: true, inputValue: "Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc."}>
-    \item{Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna.} %<{type: "textblock", description: "Your recipe step", injectBrackets: true, inputValue: "Sed adipiscing ornare risus. Morbi est est, blandit sit amet, sagittis vel, euismod vel, velit. Pellentesque egestas sem. Suspendisse commodo ullamcorper magna."}>
-    \item{Nulla sed leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-          Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus.} %<{type: "textblock", description: "Your recipe step", injectBrackets: true, inputValue: "Nulla sed leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus."}>
-    \item{Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.} %<{type: "textblock", description: "Your recipe step", injectBrackets: true, inputValue: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."}>
-    \item{Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis.} %<{type: "textblock", description: "Your recipe step", injectBrackets: true, inputValue: "Donec nec justo eget felis facilisis fermentum. Aliquam porttitor mauris sit amet orci. Aenean dignissim pellentesque felis."}>
-    \item{Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.} %<{type: "textblock", description: "Your recipe step", injectBrackets: true, inputValue: "Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat."}>
+    \item{De-husk corn}
+    \item{Slice corn off of cob and into a medium bowl}
+    \item{Pour lemon and lime juice into the bowl}
+    \item{Stir occassionaly as it marinades for 20+ minutes for even distribution} 
+    \item{Pre-heat pan with olive oil} 
+    \item{Add corn and top with butter} 
+    \item{Cook over medium heat until it starts to char}
+    \item{Remove from heat} 
+    \item{Mix in cilantro and red onion} 
     %>
   \end{steps}
 \end{multicols}
